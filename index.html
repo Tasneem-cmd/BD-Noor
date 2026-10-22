@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff3ed">
+  <meta name="description" content="A little birthday surprise for Noor Malik.">
+  <title>For Noor Malik 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="decor decor-one" aria-hidden="true">✿</div>
+  <div class="decor decor-two" aria-hidden="true">♡</div>
+  <div class="decor decor-three" aria-hidden="true">✦</div>
+  <div class="balloon balloon-one" aria-hidden="true">🎈</div>
+  <div class="balloon balloon-two" aria-hidden="true">🎈</div>
+  <main class="experience" aria-live="polite">
+    <div class="topline"><span>🎀 A LITTLE SOMETHING FOR YOU</span><span class="tiny-date">23 · OCTOBER</span></div>
+
+    <section class="scene active" id="scene-1" aria-labelledby="title-1">
+      <div class="eyebrow">PSSST… NOOR 👀</div>
+      <div class="hero-illustration" aria-hidden="true"><span class="star star-a">✦</span><span class="heart-float">♡</span><span class="cake-emoji">🎂</span><span class="star star-b">✧</span></div>
+      <h1 id="title-1">Hey, <span>Noor Malik.</span> 👀</h1>
+      <p class="lead">Sooo… someone just turned <strong>23.</strong> 🎂</p>
+      <p class="body-copy">I have something for you, Aunty. 😂❤️</p>
+      <button class="main-button" data-next="scene-2">Open it, don’t be shy <span>→</span></button>
+      <div class="bottom-note">A tiny birthday surprise, made just for you ✨</div>
+    </section>
+
+    <section class="scene" id="scene-2" aria-labelledby="title-2" hidden>
+      <div class="eyebrow">IT’S OFFICIAL 🎉</div>
+      <h2 id="title-2">HAPPY <span>23rd</span><br>BIRTHDAY, NOOR!</h2>
+      <p class="body-copy">Congratulations, Aunty. You’re officially getting older. 😂❤️</p>
+      <div class="cake-area" aria-label="Birthday cake. Tap each candle to blow it out.">
+        <div class="cake-sparkles" aria-hidden="true">✦　✧　✦</div>
+        <div class="candles">
+          <button class="candle" aria-label="Blow out candle one"><span class="flame"></span></button>
+          <button class="candle" aria-label="Blow out candle two"><span class="flame"></span></button>
+          <button class="candle" aria-label="Blow out candle three"><span class="flame"></span></button>
+        </div>
+        <div class="icing"></div><div class="cake-top"><span>♡　♡　♡</span></div><div class="cake-bottom"></div><div class="cake-plate"></div>
+      </div>
+      <p class="hint" id="candle-hint">Make a wish, then tap all three candles. 🤫</p>
+      <button class="main-button" id="cake-next" hidden>Okay, what’s next? 👀 <span>→</span></button>
+    </section>
+
+    <section class="scene" id="scene-3" aria-labelledby="title-3" hidden>
+      <div class="eyebrow">ONE VERY IMPORTANT QUESTION</div>
+      <div class="speech-bubble" aria-hidden="true">👀</div>
+      <h2 id="title-3" class="question-title">Aunty, ek baat poochun? 👀</h2>
+      <p class="body-copy">Promise, bas aik choti si baat. 😂</p>
+      <button class="main-button" data-next="scene-4">Haan, poochho 😂 <span>→</span></button>
+      <div class="bottom-note">Choose wisely. This is a very serious conversation. 🤝</div>
+    </section>
+
+    <section class="scene" id="scene-4" aria-labelledby="title-4" hidden>
+      <div class="eyebrow">I’VE BEEN MEANING TO ASK…</div>
+      <div class="gift-illustration" aria-hidden="true">🎁</div>
+      <h2 id="title-4">19 October ko kisi ka birthday tha… 👀</h2>
+      <p class="body-copy">Usko wish toh mil gayi, lekin gift nahi mila. 😂🎁</p>
+      <button class="main-button" data-next="scene-5">Achhaaa… phir? 👀 <span>→</span></button>
+    </section>
+
+    <section class="scene" id="scene-5" aria-labelledby="title-5" hidden>
+      <div class="eyebrow">ANYWAY… BACK TO YOU 🎀</div>
+      <div class="gift-illustration small-gift" aria-hidden="true">🥹🎁</div>
+      <h2 id="title-5">Khair, aaj tumhara din hai.</h2>
+      <p class="body-copy punchline">Ab batao… mera gift kidhar hai, Aunty? 😭😂</p>
+      <p class="hint">The gift department is still waiting for your response. 👀</p>
+      <button class="main-button" data-next="scene-6">Okay okay, birthday wish first 💗 <span>→</span></button>
+    </section>
+
+    <section class="scene final-scene" id="scene-6" aria-labelledby="title-6" hidden>
+      <div class="eyebrow">JOKES ASIDE, FROM THE HEART 💗</div>
+      <div class="final-art" aria-hidden="true">💐🎂💗</div>
+      <h2 id="title-6">Happy 23rd Birthday,<br><span>Noor Malik!</span></h2>
+      <p class="wish-copy">May Allah bless you with happiness, good health, success, peace, and countless reasons to smile. May this new year bring you beautiful opportunities, sincere people, and moments that make your heart feel full. Ameen. 🤍</p>
+      <p class="last-line">Enjoy your day, birthday girl. You deserve all the good things. 🥹🎀</p>
+      <button class="main-button" id="celebrate">One last birthday celebration! 🎉</button>
+      <div class="bottom-note">Made with care, a little teasing, and lots of duas ♡</div>
+    </section>
+    <div class="progress-dots" aria-label="Birthday surprise progress"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+  </main>
+  <div class="confetti-layer" id="confetti" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
